@@ -563,52 +563,6 @@ Debe controlarse mediante UART.
 
 ---
 
-# Mi configuración funcional
-
-Aquí puedes documentar exactamente cómo lo hiciste funcionar.
-
-Ejemplo:
-
-* ESP-01S de 1MB
-* Programado con Arduino IDE
-* Alimentación 5V / 2A
-* Control vía MQTT
-* Relay funcionando correctamente con comandos UART
-
----
-
-# Cómo lo descubrí
-
-Mi proceso fue el siguiente:
-
-1. Inicialmente intenté controlar el relay desde GPIO
-2. No funcionó
-3. Revisé el hardware y encontré el chip STC15F104W
-4. Investigando descubrí que el relay no se controla directamente
-5. Probé comandos UART
-6. Finalmente logré activar y desactivar el relay
-
-Este comportamiento no está bien documentado, por eso dejo esta guía para futuras referencias.
-
----
-
-# Recomendaciones
-
-Si vas a usar este módulo en proyectos reales:
-
-* Domótica
-* MQTT
-* Home Assistant
-* Automatización industrial
-
-Recomiendo:
-
-* Documentar bien el hardware
-* Confirmar si tu módulo usa STC o GPIO directo
-* Probar primero con comandos seriales simples
-
----
-
 ## Créditos y referencias
 
 Durante el proceso de investigación y pruebas, me apoyé bastante en información compartida por la comunidad, especialmente en este hilo del foro ESP8266, donde varios usuarios documentaron el funcionamiento del módulo LC Technology con el microcontrolador STC15F104W:
@@ -625,9 +579,3 @@ Ese hilo fue clave para entender varios puntos importantes:
 A partir de esa información, realicé pruebas adicionales con mi propio hardware hasta lograr una configuración funcional, que es la que documento en este repositorio.
 
 El objetivo de esta guía es ahorrar tiempo a otros desarrolladores que tengan este mismo módulo y se encuentren con la falta de documentación clara.
-
----
-
-# Licencia
-
-MIT License
