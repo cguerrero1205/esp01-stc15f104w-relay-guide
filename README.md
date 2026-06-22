@@ -491,14 +491,21 @@ void setup() {
   Serial.begin(9600);
 }
 
-void loop() {
-  byte relayOn[] = {0xA0, 0x01, 0x01, 0xA2};
-  byte relayOff[] = {0xA0, 0x01, 0x00, 0xA1};
+void encenderRelay() {
+  byte cmd[] = {0xA0, 0x01, 0x01, 0xA2};
+  Serial.write(cmd, sizeof(cmd));
+}
 
-  Serial.write(relayOn, sizeof(relayOn));
+void apagarRelay() {
+  byte cmd[] = {0xA0, 0x01, 0x00, 0xA1};
+  Serial.write(cmd, sizeof(cmd));
+}
+
+void loop() {
+  encenderRelay();
   delay(3000);
 
-  Serial.write(relayOff, sizeof(relayOff));
+  apagarRelay();
   delay(3000);
 }
 ```
