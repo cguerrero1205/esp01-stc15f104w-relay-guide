@@ -1,5 +1,7 @@
 # Programar módulo ESP-01 + Relay 1CH 5V con STC15F104W
 
+🌐 [English](README.en.md) | **Español**
+
 Guía completa para entender y hacer funcionar correctamente el módulo relay basado en:
 
 * ESP-01 / ESP-01S
@@ -40,7 +42,8 @@ Ese detalle no suele estar claramente documentado, por eso dejo este instructivo
 
 ```txt
 .
-├── README.md
+├── README.md                     # Guía en español
+├── README.en.md                  # Guía en inglés
 ├── firmware/
 │   └── firmware.hex              # Firmware para el STC15F104W
 ├── examples/

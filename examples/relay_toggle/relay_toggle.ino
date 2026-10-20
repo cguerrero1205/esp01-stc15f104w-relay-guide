@@ -1,5 +1,8 @@
 // Ejemplo: encender y apagar el relay cada 3 segundos.
 // El relay lo controla el STC15F104W, que recibe comandos por UART a 9600 baud.
+//
+// Example: toggle the relay every 3 seconds.
+// The relay is driven by the STC15F104W, which receives UART commands at 9600 baud.
 
 void setup() {
   Serial.begin(9600);
