@@ -21,6 +21,7 @@ A complete guide to understanding and getting the relay module based on the foll
 9. [Wiring](#wiring)
 10. [Common problems](#common-problems)
 11. [Credits and references](#credits-and-references)
+12. [License](#license)
 
 ---
 
@@ -44,6 +45,7 @@ This detail is rarely documented clearly, which is why I wrote this guide.
 .
 ├── README.md                     # Spanish guide
 ├── README.en.md                  # English guide
+├── LICENSE                       # MIT license
 ├── firmware/
 │   └── firmware.hex              # Firmware for the STC15F104W
 ├── examples/
@@ -466,3 +468,9 @@ That thread was key to understanding several important points:
 Based on that information, I ran additional tests with my own hardware until I got a working setup, which is what I document in this repository.
 
 The goal of this guide is to save time for other developers who have this same module and run into the lack of clear documentation.
+
+---
+
+# License
+
+This project is licensed under the [MIT License](LICENSE).

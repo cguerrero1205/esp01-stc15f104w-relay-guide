@@ -21,6 +21,7 @@ Guía completa para entender y hacer funcionar correctamente el módulo relay ba
 9. [Cableado](#cableado)
 10. [Problemas comunes](#problemas-comunes)
 11. [Créditos y referencias](#créditos-y-referencias)
+12. [Licencia](#licencia)
 
 ---
 
@@ -44,6 +45,7 @@ Ese detalle no suele estar claramente documentado, por eso dejo este instructivo
 .
 ├── README.md                     # Guía en español
 ├── README.en.md                  # Guía en inglés
+├── LICENSE                       # Licencia MIT
 ├── firmware/
 │   └── firmware.hex              # Firmware para el STC15F104W
 ├── examples/
@@ -466,3 +468,9 @@ Ese hilo fue clave para entender varios puntos importantes:
 A partir de esa información, realicé pruebas adicionales con mi propio hardware hasta lograr una configuración funcional, que es la que documento en este repositorio.
 
 El objetivo de esta guía es ahorrar tiempo a otros desarrolladores que tengan este mismo módulo y se encuentren con la falta de documentación clara.
+
+---
+
+# Licencia
+
+Este proyecto está bajo la licencia [MIT](LICENSE).
